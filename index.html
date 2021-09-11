@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/logo favicon.icon.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/assets/fonts/fonts icons/css/all.min.css">
+    <title>Tailwind Airbnb</title>
+</head>
+<body class="font-sans mx-0 my-0 h-[100%]">
+ 
+   <!-- begin: header section -->
+      <header class=" flex items-center justify-between px-6 lg:px-16 sm:px-10 py-6 fixed h-12 sm:h-[52px] top-0 right-0 left-0 z-50 bg-white shadow-md">
+          <div class=" w-[100%] sm:w-[150px] sm:h-10 cursor-pointer">
+              <img class=" w-[100%]  h-[100%]leading-6" src="/assets/img/logo.png" alt="logo">
+          </div>
+          <div class="  py-2 flex w-40 sm:w-[238px] sm:rounded-full items-center sm:shadow-sm sm:border-2 sm:border-solid sm:border-gray-200 md:h-8 lg:w-[396px] md:ml-2.5  md:hover:shadow-lg">
+              <input class=" outline-none text-xs md:text-base border-0 leading-5 pl-3 md:pl-5 pr-0 py-0 lg:w-[328px] h-5 rounded-full text-[#222] " type="text" placeholder="Start your search " > 
+              <div class="  hidden md:inline bg-red-400 px-[10px] pt-2 pb-[10px] mx-2 rounded-[50%] cursor-pointer ">
+                <i class="fas fa-search text-white text-center text-xs mx-[2px] "></i>
+               </div>
+          </div>
+          <div class=" items-center flex justify-end text-[#222] space-x-2 md:space-x-4">
+              <div class="flex justify-between items-center">
+                <p class=" hidden md:inline text-base cursor-pointer p-3  hover:bg-gray-100 hover:rounded-full">Become a host</p>
+                <i class="fas fa-globe md:ml-2 md:p-3 md:text-xl hover:bg-gray-100 hover:rounded-full"></i>
+              </div>
+    
+              <div class=" p-2 flex rounded-full items-center md:shadow-sm md:border-2 border-solid border-gray-200 w-11 h-5 md:w-14 md:h-6 md:hover:shadow-lg">
+                  <i class="fas fa-bars mr-3 md:ml-1 md:text-xl text-base"></i>
+                  <i class="fas fa-user-circle text-base ml-1  md:mr-3 md:text-xl"></i>
+               </div>
+          </div>
+    
+      </header>
+   <!-- end: header section -->
+    
+   <!-- begin: slider section -->
+       <div class=" mt-[88px] xl:mt-[101px] overflow-hidden md:mt-[72px]  ">
+           
+           <div class="flex relative ">
+              <img class="md:w-[100%] w-[414px] h-[300px]  md:h-[100%]" src="/assets/img/header-bg.jpeg" alt="">
+           
+              <div class=" absolute md:self-center top-1/3 lg:top-1/2  text-center w-full">
+                   <p class=" text-sm sm:text-lg mb-3">Not sure where to go? Perfect.</p>
+                   <button class=" border-0 bg-white shadow-md hover:shadow-xl duration-150 text-purple-500 py-4 px-10 mb-3 rounded-full font-bold text-base leading-6 cursor-pointer">I'm flexible</button>
+                </div>
+           </div>
+
+        </div>
+   <!-- end: slider section -->
+  
+
+   <main class="md:px-16 px-8 overflow-hidden ">
+
+     <!-- begin: Explore Nearby section-->
+     <section class="pt-6 ">
+      <h2 class="text-4xl font-semibold ">Explore Nearby</h2>
+      <div class="flex justify-items-start flex-wrap">
+          <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer ">
+              <div>
+                  <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby1.jpeg" alt="london">
+              </div>
+              <div class="ml-4 ">
+                  <p class=" mb-0 mt-0 ">London</p>
+                  <p class="text-gray-500 mt-0 mb-0">45-minute drive</p>
+              </div>
+           </div>
+
+           <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer">
+            <div>
+                <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby2.jpeg" alt="london">
+            </div>
+            <div class="ml-4 ">
+                <p class=" mb-0 mt-0 ">Manchester</p>
+                <p class="text-gray-500 mt-0 mb-0">4.5-hour driver</p>
+            </div>
+         </div>
+
+         <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer">
+            <div>
+                <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby3.jpeg" alt="london">
+            </div>
+            <div class="ml-4 ">
+                <p class=" mb-0 mt-0 ">Liverpool</p>
+                <p class="text-gray-500 mt-0 mb-0">4.5-hour drive</p>
+            </div>
+         </div>
+
+         <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer">
+            <div>
+                <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby4.jpeg "alt="london">
+            </div>
+            <div class="ml-4 ">
+                <p class=" mb-0 mt-0 ">York</p>
+                <p class="text-gray-500 mt-0 mb-0">4-hour drive</p>
+            </div>
+         </div>
+
+         <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer">
+            <div>
+                <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby5.jpeg" alt="london">
+            </div>
+            <div class="ml-4 ">
+                <p class=" mb-0 mt-0 ">Cardiff</p>
+                <p class="text-gray-500 mt-0 mb-0"> 45-minute drive</p>
+            </div>
+         </div>
+
+         <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer">
+            <div>
+                <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby6.jpeg" alt="london">
+            </div>
+            <div class="ml-4 ">
+                <p class=" mb-0 mt-0 ">Birkenhead</p>
+                <p class="text-gray-500 mt-0 mb-0"> 4.5-hour drive</p>
+            </div>
+         </div>
+
+         <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer">
+            <div>
+                <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby7.jpeg" alt="london">
+            </div>
+            <div class="ml-4 ">
+                <p class=" mb-0 mt-0 ">Newquay</p>
+                <p class="text-gray-500 mt-0 mb-0">6-hour drive</p>
+            </div>
+         </div>
+
+         <div class="mt-5 mb-2 mx-2 w-[272px] h-16 rounded-xl flex items-center hover:bg-gray-100  hover:shadow-md duration-200 cursor-pointer">
+            <div>
+                <img class="h-16 w-16 rounded-lg" src="/assets/img/Explore Nearby8.png" alt="london">
+            </div>
+            <div class="ml-4 ">
+                <p class=" mb-0 mt-0 ">Hove</p>
+                <p class="text-gray-500 mt-0 mb-0">2-hour drive</p>
+            </div>
+         </div>
+
+      </div>
+     </section>
+     <!-- end: Explore Nearby section-->
+
+     <!-- begin: Try hosting section -->
+       <div class=" hidden md:inline ">
+           <div class="   sm:pt-[50px] relative md:pt-8  flex items-center">
+                <img class="md:w-[100%] lg:h-[402px]  rounded-2xl" src="/assets/img/Try hosting.jpeg" alt="">
+               <div class="absolute pl-10 lg:px-20 md:w-[300px] lg:w-[384px] flex flex-col cursor-pointer ">
+                    <h2 class="text-white font-semibold md:text-4xl lg:text-5xl my-0">Try hosting</h2>
+                    <p class="text-white md:text-base lg:text-lg leading-6 ">Earn extra income and unlock new opportunities by sharing your space</p>
+                   <div class=" mt-6  "> 
+                       <button class="cursor-pointer border-0 py-[14px] px-6 text-base leading-5 font-semibold rounded-lg">Learn more </button>
+                   </div>
+               </div>
+           </div>
+       </div>
+     <!-- end: Try hosting section -->
+
+     <!-- begin: Live Anywhere section -->
+       <section class="pt-6">
+        <h2 class="text-4xl font-semibold ">Live Anywhere</h2>
+           
+        <div class="flex flex-row  space-x-3 w-[100%] overflow-scroll py-3 pr-3 " >
+            <div class="cursor-pointer ">
+               <img class="h-[350px] w-[350px] rounded-xl  hover:opacity-60" src="/assets/img/Live Anywhere1.jpeg" alt="">
+               <h3 class="text-2xl mt-3 font-normal ">Outdoor getaways</h3>
+            </div>
+
+            <div class="cursor-pointer">
+                <img class="h-[350px] w-[350px] rounded-xl hover:opacity-60" src="/assets/img/Live Anywhere2.jpeg" alt="">
+                <h3 class="text-2xl mt-3 font-normal ">Unique stays</h3>
+            </div>
+
+            <div class="cursor-pointer">
+                <img class="h-[350px] w-[350px] rounded-xl hover:opacity-60" src="/assets/img/Live Anywhere3.jpeg" alt="">
+                <h3 class="text-2xl mt-3 font-normal ">Entire homes</h3>
+            </div>
+
+            <div class="cursor-pointer">
+                <img class="h-[350px] w-[350px] rounded-xl hover:opacity-60" src="/assets/img/Live Anywhere4.jpeg" alt="">
+                <h3 class="text-2xl mt-3 font-normal ">Pet allowed</h3>
+            </div>
+
+        </div>
+        </section>
+     <!-- end: Live Anywhere section -->
+
+     <!-- begin: Discover things to do -->
+       <section class="mt-2">
+        <h2 class="text-4xl font-semibold mt-0 ">Discover things to do</h2>
+           <div class=" flex flex-row overflow-scroll space-x-4 pb-3">
+               <div class="cursor-pointer">
+                   <img class=" h-[350px] w-[350px] md:h-[360px] md:w-[360px] rounded-xl hover:opacity-60 " src="/assets/img/Discover things to do1.jpeg" alt="">
+                   <div class="pt-2 ">
+                       <h4 class="m-0 text-lg font-semibold">Experiences</h4>
+                       <p class=" mx-0 my-0 text-sm font-normal text-[#272727] mb-5  ">Find unforgettable activities near you.</p>
+                   </div>
+               </div>
+
+               <div class="cursor-pointer">
+                    <img class=" h-[350px] w-[350px] md:h-[360px] md:w-[360px] rounded-xl hover:opacity-60 " src="/assets/img/Discover things to do2.jpeg" alt="">
+                    <div class="pt-2 ">
+                        <h4 class="m-0 text-lg font-semibold">Online Experiences</h4>
+                        <p class=" mx-0 my-0 text-sm font-normal text-[#272727] mb-5  ">Live, interactive activities led by Hosts.</p>
+                    </div>
+                </div>
+
+                <div class="cursor-pointer">
+                    <img class=" h-[350px] w-[350px] md:h-[360px] md:w-[360px] rounded-xl hover:opacity-60 " src="/assets/img/Discover things to do3.jpeg" alt="">
+                    <div class="pt-2 ">
+                        <h4 class="m-0 text-lg font-semibold">Featured collection: Wanderlusts</h4>
+                        <p class=" mx-0 my-0 text-sm font-normal text-[#272727] mb-5  ">Travel from home with Online Experiences.</p>
+                    </div>
+                </div>
+            </div>
+       </section>
+     <!-- end: Discover things to do -->
+
+     <!-- begin: The Greatest Outdoors -->
+       <div class="pt-[50px] pb-16">
+           <div class=" relative flex items-center">
+               <img class="w-[100%] rounded-2xl" src="/assets/img/footer.jpeg" alt="">
+               <div class=" absolute left-6 md:left-12 h-16 w-60 md:h-[172px] md:w-[256px] top-5 lg:mt-20 lg:left-24 lg:w-[400px]">
+                   <h3 class=" mt-0 mb-2 md:mb-3 font-medium text-sm  md:font-normal md:text-4xl ">The Greatest Outdoors</h3>
+                   <p class="m-0 text-xs lg:text-base">Wishlists curated by Airbnb</p>
+                   <div class="md:mt-5 mt-3 ">
+                       <button class=" border-0 bg-black hover:bg-white hover:text-black py-2 px-4 text-xs text-white md:text-sm font-medium rounded-lg ">Get Inspired</button>
+                   </div>
+
+               </div>
+           </div>
+
+       </div>
+     <!-- end: The Greatest Outdoors -->
+    </main>
+     <!-- begin: footer -->
+       <footer class=" bg-gray-100  md:justify-around lg:flex-row lg:flex items-center py-6 px-11 md:py-14 md:px-32  ">
+          <div class=" pb-4" >
+           <section>
+               <h5 class=" font-bold text-xs leading-4 ">ABOUT</h5>
+               <p class="content-footer">How Airbnb works</p>
+               <p class="content-footer"> Newsroom</p>
+               <p class="content-footer">Investors</p>
+               <p class="content-footer">Airbnb Plus</p>
+               <p class="content-footer">Airbnb Luxe</p>
+           </section>
+           
+           <section class=" mt-9 ">
+               <h5 class=" font-bold text-xs leading-4 ">COMMUNITY</h5>
+               <p class="content-footer">Diversity & Belonging</p>
+               <p class="content-footer">Against Discrimination</p>
+               <p class="content-footer">Accessibility</p>
+               <p class="content-footer">Airbnb Associates</p>
+               <p class="content-footer">Guest Referrals</p>
+           </section>
+
+        </div>
+           
+           
+        <div class="pb-4">
+           <section>
+               <h5 class=" font-bold text-xs leading-4 ">HOST</h5>
+               <p class="content-footer">Host your home</p>
+               <p class="content-footer">Host an Online Experience</p>
+               <p class="content-footer">Host an Experience</p>
+               <p class="content-footer">Responsible hosting</p>
+               <p class="content-footer">Resource Center</p>
+           </section>
+           
+           <section class=" mt-9 ">
+               <h5 class=" font-bold text-xs leading-4 ">SUPPORT</h5>
+               <p class="content-footer">Our COVID-19 Response</p>
+               <p class="content-footer">Help Center</p>
+               <p class="content-footer"> Cancellation options</p>
+               <p class="content-footer">Neighborhood Support</p>
+               <p class="content-footer">Trust & Safety</p>
+           </section>
+        </div>
+       </footer>
+
+     <!-- end: footer -->
+</body>
+</html>

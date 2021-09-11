@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss-demo-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i css/tailwind.css -c tailwind.config.js -o css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.6"
+  }
+}

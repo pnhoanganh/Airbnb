@@ -1,2 +1,2 @@
-# Airbnb-Tailwindcss
-use Tailwindcss
+# Airbnb
+- Use Tailwindcss
